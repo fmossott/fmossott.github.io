@@ -1,2 +1,2 @@
 # fmossott.github.io
-github.io home
+Home page content
