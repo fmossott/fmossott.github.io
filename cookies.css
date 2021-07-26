@@ -1,0 +1,41 @@
+div#cookiePopup {
+   position:absolute; 
+   bottom:0; 
+   background-color: black;
+   color: white;
+   padding: 20px;
+}
+
+div#cookiePopup.hidden {
+  display: none;
+}
+
+div#cookieBox {
+  display: flex;  
+  flex-direction: column;  
+  width: 100%;
+}
+
+div#cookieButtons {
+  display: flex;  
+  flex-direction: row;  
+  justify-content: flex-end;
+}
+
+div.cookieButton {
+  border: 1px;
+  border-color: white;
+  border-style: solid;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  min-width: 120px;
+  text-transform: uppercase;
+}
+
+div.cookieButton#acceptcookies {
+  color: #f5821e;
+  border-color: #f5821e;
+}
+
+
