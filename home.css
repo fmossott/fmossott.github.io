@@ -38,7 +38,7 @@ body {
 
 .main-content {
   text-align: left;
-  flex: 3 1 auto;
+  flex: 3 1 600px;
 }
 
 .main-content>div {
@@ -46,7 +46,7 @@ body {
 }
 
 #right-ad {
-  flex: 1 1 auto;
+  flex: 1 1 200px;
   margin: 10px;
 }
 
