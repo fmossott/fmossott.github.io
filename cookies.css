@@ -4,6 +4,7 @@ div#cookiePopup {
    background-color: black;
    color: white;
    padding: 20px;
+   z-index: 10000;
 }
 
 div#cookiePopup.hidden {
